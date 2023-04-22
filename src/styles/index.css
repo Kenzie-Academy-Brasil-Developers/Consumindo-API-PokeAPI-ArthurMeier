@@ -1,92 +1,92 @@
 body {
-    background-color: #212529;
-    height: 100vh;
-    font-family: 'IBM Plex Sans';
-    display: flex;
-    justify-content: center;
+  background-color: #212529;
+  height: 100vh;
+  font-family: "IBM Plex Sans";
+  display: flex;
+  justify-content: center;
+  overflow-x: hidden;
 }
 
 .container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
 }
 
 .logo {
-    width: 125px;
-    height: 50.1px;
-    margin: 33px 0 36.9px 0;
+  width: 125px;
+  height: 50.1px;
+  margin: 33px 0 36.9px 0;
 }
 
 .pesquisa {
-    width: 196px;
-    height: 52px;
-    background: #343A40;
-    border-radius: 8px;
-    margin-bottom: 37px;
-    border: none;
-    color: #fff;
-    text-align: center;
+  width: 196px;
+  height: 52px;
+  background: #343a40;
+  border-radius: 8px;
+  margin-bottom: 37px;
+  border: none;
+  color: #fff;
+  text-align: center;
 }
 
 h1 {
-    font-weight: 500;
-    font-size: 24px;
-    color: #DEE2E6;
-    margin-bottom: 74px;
-    text-align: center;
+  font-weight: 500;
+  font-size: 24px;
+  color: #dee2e6;
+  margin-bottom: 74px;
+  text-align: center;
 }
 
-ul{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 li {
-    width: 280px;
-    height: 60px;
-    background-color: #343A40;
-    border-radius: 8px;
-    display: flex;
-    margin-bottom: 28px;
+  width: 280px;
+  height: 60px;
+  background-color: #343a40;
+  border-radius: 8px;
+  display: flex;
+  margin-bottom: 28px;
 }
 
 .loading {
-    margin-top: 182.9px;
-    font-weight: 500;
-    font-size: 20px;
-    color: #ADB5BD;
-    text-align: center;
+  margin-top: 182.9px;
+  font-weight: 500;
+  font-size: 20px;
+  color: #adb5bd;
+  text-align: center;
 }
 
-li>img {
-    width: 60px;
-    height: 60px;
+li > img {
+  width: 60px;
+  height: 60px;
 }
 
-li>p {
-    font-weight: 500;
-    font-size: 20px;
-    color: #CED4DA;
-    align-self: center;
-    margin-left: 12px;
+li > p {
+  font-weight: 500;
+  font-size: 20px;
+  color: #ced4da;
+  align-self: center;
+  margin-left: 12px;
 }
 
-@media (min-width:769px) {
-    .container{
-        flex-direction: row;
-        justify-content: space-around;
-    }
-    .pesquisa {
-        width: 233px;
-        margin-top: 36px;
-    }
+@media (min-width: 769px) {
+  .container {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .pesquisa {
+    width: 233px;
+    margin-top: 36px;
+  }
 
-    li {
-        width: 801px;
-    }
-
+  li {
+    width: 801px;
+  }
 }
