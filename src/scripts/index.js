@@ -28,7 +28,7 @@ function populatePokemonList(listaDePokemons) {
       `
             <li>
                 <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${numeroNaPokedex}.png" alt=${pokemon.name}>
-                <p>${pokemon.name}</p>
+                <p> ${pokemon.name} </p>
             </li>
         `
     );

@@ -14,7 +14,6 @@ async function getPokemons(filter) {
       });
     })
     .catch((error) => console.log(error));
-
   return listaDePokemons;
 }
 
@@ -28,6 +27,5 @@ async function getPokemonStat(fil) {
       return response;
     })
     .catch((error) => console.log(error));
-
   return pokemonStat;
 }
